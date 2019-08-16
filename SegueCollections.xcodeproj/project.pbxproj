@@ -27,6 +27,8 @@
 		21BEAF3C215255E100442499 /* FlipReplaceSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21BEAF3B215255E100442499 /* FlipReplaceSegue.swift */; };
 		21BEAF3F2152560E00442499 /* Replaceable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21BEAF3E2152560E00442499 /* Replaceable.swift */; };
 		21BEAF41215256B500442499 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21BEAF40215256B500442499 /* Constants.swift */; };
+		21BEAF592154E52A00442499 /* FlipPresentSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21BEAF582154E52A00442499 /* FlipPresentSegue.swift */; };
+		21BEAF5B2154E55F00442499 /* FlipAnimatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21BEAF5A2154E55F00442499 /* FlipAnimatable.swift */; };
 		OBJ_29 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_6 /* Package.swift */; };
 		OBJ_40 /* SegueCollectionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_12 /* SegueCollectionsTests.swift */; };
 		OBJ_41 /* XCTestManifests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_13 /* XCTestManifests.swift */; };
@@ -57,6 +59,8 @@
 		21BEAF3B215255E100442499 /* FlipReplaceSegue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlipReplaceSegue.swift; sourceTree = "<group>"; };
 		21BEAF3E2152560E00442499 /* Replaceable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Replaceable.swift; sourceTree = "<group>"; };
 		21BEAF40215256B500442499 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		21BEAF582154E52A00442499 /* FlipPresentSegue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlipPresentSegue.swift; sourceTree = "<group>"; };
+		21BEAF5A2154E55F00442499 /* FlipAnimatable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlipAnimatable.swift; sourceTree = "<group>"; };
 		OBJ_12 /* SegueCollectionsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegueCollectionsTests.swift; sourceTree = "<group>"; };
 		OBJ_13 /* XCTestManifests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCTestManifests.swift; sourceTree = "<group>"; };
 		OBJ_6 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
@@ -86,6 +90,7 @@
 		21BEAF3D215255F200442499 /* Protocols */ = {
 			isa = PBXGroup;
 			children = (
+				21BEAF5C2154E56600442499 /* Animation */,
 				21BEAF3E2152560E00442499 /* Replaceable.swift */,
 			);
 			path = Protocols;
@@ -97,6 +102,14 @@
 				21BEAF40215256B500442499 /* Constants.swift */,
 			);
 			path = Config;
+			sourceTree = "<group>";
+		};
+		21BEAF5C2154E56600442499 /* Animation */ = {
+			isa = PBXGroup;
+			children = (
+				21BEAF5A2154E55F00442499 /* FlipAnimatable.swift */,
+			);
+			path = Animation;
 			sourceTree = "<group>";
 		};
 		OBJ_10 /* Tests */ = {
@@ -151,6 +164,7 @@
 				21BEAF392152533600442499 /* FadePopSegue.swift */,
 				21BEAF3321524CA000442499 /* FadeReplaceSegue.swift */,
 				21BEAF3B215255E100442499 /* FlipReplaceSegue.swift */,
+				21BEAF582154E52A00442499 /* FlipPresentSegue.swift */,
 				21BEAF42215256BD00442499 /* Config */,
 				21BEAF3D215255F200442499 /* Protocols */,
 			);
@@ -241,8 +255,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
+				21BEAF5B2154E55F00442499 /* FlipAnimatable.swift in Sources */,
 				21BEAF3421524CA000442499 /* FadeReplaceSegue.swift in Sources */,
 				21BEAF382152524400442499 /* FadePresentSegue.swift in Sources */,
+				21BEAF592154E52A00442499 /* FlipPresentSegue.swift in Sources */,
 				21BEAF3A2152533600442499 /* FadePopSegue.swift in Sources */,
 				21BEAF3F2152560E00442499 /* Replaceable.swift in Sources */,
 				21BEAF3C215255E100442499 /* FlipReplaceSegue.swift in Sources */,
